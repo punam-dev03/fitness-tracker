@@ -1,0 +1,93 @@
+# ==========================================
+# HELP
+# ==========================================
+HELP.md
+
+# ==========================================
+# Maven
+# ==========================================
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Maven Wrapper
+.mvn/wrapper/maven-wrapper.jar
+
+# ==========================================
+# Spring Tool Suite (STS)
+# ==========================================
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# ==========================================
+# IntelliJ IDEA
+# ==========================================
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ==========================================
+# VS Code
+# ==========================================
+.vscode/
+
+# ==========================================
+# NetBeans
+# ==========================================
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+# ==========================================
+# Eclipse
+# ==========================================
+.settings/
+.project
+.classpath
+
+# ==========================================
+# Logs
+# ==========================================
+*.log
+logs/
+
+# ==========================================
+# OS Files
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# Temporary Files
+# ==========================================
+*.tmp
+*.temp
+*.swp
+*.bak
+
+# ==========================================
+# Environment Files (Don't upload secrets)
+# ==========================================
+.env
+.env.*
+!.env.example
+
+# ==========================================
+# Application Secret Files (Optional)
+# Uncomment if you keep secrets separately
+# ==========================================
+# src/main/resources/application-local.properties
+# src/main/resources/application-secret.properties
